@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\taylor\\.nuget\\packages\\": {},
+    "C:\\Users\\Blazina\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taylor\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\Assignment2.csproj",
+      "projectUniqueName": "C:\\Users\\Blazina\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\Assignment2.csproj",
       "projectName": "Assignment2",
-      "projectPath": "C:\\Users\\taylor\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\Assignment2.csproj",
-      "packagesPath": "C:\\Users\\taylor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taylor\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\obj\\",
+      "projectPath": "C:\\Users\\Blazina\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\Assignment2.csproj",
+      "packagesPath": "C:\\Users\\Blazina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Blazina\\OneDrive - Eastern Washington University\\CSCD 371\\EWU-CSCD371-2018-Fall\\Assignment2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\taylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Blazina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
