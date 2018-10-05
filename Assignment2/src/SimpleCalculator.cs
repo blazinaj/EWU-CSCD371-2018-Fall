@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+// I didn't start the project in time to finish, no excuse. My Apologies. //
+
 namespace Assignment2
 {
     public class SimpleCalculator
@@ -11,7 +13,7 @@ namespace Assignment2
             bool doAgain = false;
             do
             {
-                Console.WriteLine("Welcome to Simple Calculator, please enter an expression to evaluate");
+                Console.WriteLine("Welcome to a Simple Calculator, please enter an expression to evaluate");
                 string inputString = Console.ReadLine();
                 string formatted = String.Join(" ", InfixConverter(new[] { inputString }));
                 Console.WriteLine(formatted);
