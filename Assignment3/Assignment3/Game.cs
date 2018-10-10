@@ -11,7 +11,7 @@ namespace Assignment3
         public Game()
         {
             
-            Player humanPlayer = new Player("computer");
+            Player humanPlayer = new Player("human");
             Player computerPlayer = new Player("computer");
             
             do
