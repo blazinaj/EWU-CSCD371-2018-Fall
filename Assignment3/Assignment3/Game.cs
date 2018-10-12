@@ -8,11 +8,11 @@ namespace Assignment3
     {
         public string winner = "none";
 
-        public Game()
+        public Game(string playerOneType, string playerTwoType)
         {
             
-            Player humanPlayer = new Player("human");
-            Player computerPlayer = new Player("computer");
+            Player humanPlayer = new Player(playerOneType);
+            Player computerPlayer = new Player(playerTwoType);
             
             do
             {

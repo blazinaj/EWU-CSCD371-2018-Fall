@@ -10,8 +10,8 @@ namespace Assignment3
             do
             {
                 Console.WriteLine($"Hello, welcome to Rock Paper Scissors. {Environment.NewLine}--------------{Environment.NewLine}You each start with 100 lifepoints. {Environment.NewLine}Rock: 20 damage. {Environment.NewLine}Scissors: 15 damage. {Environment.NewLine}Paper: 10 damage.{Environment.NewLine}--------------{Environment.NewLine}");
-
-                Game game = new Game();
+                // Human vs computer / Human vs Human / Computer vs computer
+                Game game = new Game("human", "computer");
 
                 Console.WriteLine($"-------------{Environment.NewLine}{game.winner} won the game!------------{Environment.NewLine}");
                 Console.Write("Would you like to play again? (y/n): ");

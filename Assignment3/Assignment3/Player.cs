@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Assignment3
 {
-    class Player
+    public class Player
     {
         public int lifePoints;
         public bool computerController;
