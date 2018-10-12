@@ -8,7 +8,6 @@ namespace Assignment3.Test
         [TestMethod]
         public void Computer_VS_Computer_Has_A_Winner()
         {
-
             Game testGame = new Game("computer", "computer");
 
             Assert.AreNotEqual(testGame.winner, "none");

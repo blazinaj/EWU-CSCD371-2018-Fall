@@ -22,49 +22,49 @@ namespace Assignment3
                 string computerWeapon = computerPlayer.DrawWeapon();
                 Console.WriteLine($"The computer has drawn: {computerWeapon}{Environment.NewLine}{Environment.NewLine}");
 
-                var t = new Tuple<string, string>(humanWeapon, computerWeapon);
+                var weaponSelection = MapWeapons(humanWeapon, computerWeapon);
 
-                if (t.Compare("rock", "rock"))
+                if (weaponSelection.BattleResult("rock", "rock"))
                 {
                     //do nothing
                     Console.WriteLine($"Nobody won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("rock", "paper"))
+                else if (weaponSelection.BattleResult("rock", "paper"))
                 {
                     humanPlayer.lifePoints -= 10;
                     Console.WriteLine($"The computer has won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("rock", "scissors"))
+                else if (weaponSelection.BattleResult("rock", "scissors"))
                 {
                     computerPlayer.lifePoints -= 20;
                     Console.WriteLine($"You have won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("paper", "rock"))
+                else if (weaponSelection.BattleResult("paper", "rock"))
                 {
                     computerPlayer.lifePoints -= 10;
                     Console.WriteLine($"You have won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("paper", "paper"))
+                else if (weaponSelection.BattleResult("paper", "paper"))
                 {
                     //do nothing
                     Console.WriteLine($"Nobody won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("paper", "scissors"))
+                else if (weaponSelection.BattleResult("paper", "scissors"))
                 {
                     humanPlayer.lifePoints -= 15;
                     Console.WriteLine($"The computer has won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("scissors", "rock"))
+                else if (weaponSelection.BattleResult("scissors", "rock"))
                 {
                     humanPlayer.lifePoints -= 20;
                     Console.WriteLine($"The computer has won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("scissors", "paper"))
+                else if (weaponSelection.BattleResult("scissors", "paper"))
                 {
                     computerPlayer.lifePoints -= 15;
                     Console.WriteLine($"You have won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
                 }
-                else if (t.Compare("scissors", "scissors"))
+                else if (weaponSelection.BattleResult("scissors", "scissors"))
                 {
                     //do nothing
                     Console.WriteLine($"Nobody won this round! You: {humanPlayer.lifePoints} lifepoints. Opponent: {computerPlayer.lifePoints} lifepoints.");
@@ -99,6 +99,11 @@ namespace Assignment3
                 }
 
             } while (winner == "none");
+        }
+
+        private Tuple<string, string> MapWeapons(string humanWeapon, string computerWeapon)
+        {
+            return new Tuple<string, string>(humanWeapon, computerWeapon);
         }
     }
 }
