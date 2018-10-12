@@ -2,11 +2,12 @@
 
 namespace Assignment3
 {
-    class Program
+    class RockPaperScissors
     {
         static void Main(string[] args)
         {
             bool again = true;
+
             do
             {
                 Console.WriteLine($"Hello, welcome to Rock Paper Scissors. {Environment.NewLine}--------------{Environment.NewLine}You each start with 100 lifepoints. {Environment.NewLine}Rock: 20 damage. {Environment.NewLine}Scissors: 15 damage. {Environment.NewLine}Paper: 10 damage.{Environment.NewLine}--------------{Environment.NewLine}");
