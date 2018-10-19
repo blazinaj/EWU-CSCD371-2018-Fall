@@ -1,0 +1,17 @@
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.Tests.deps.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.Tests.runtimeconfig.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.Tests.runtimeconfig.dev.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.Tests.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\bin\Debug\netcoreapp2.1\Assignment4.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.csprojAssemblyReference.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.AssemblyInfoInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.AssemblyInfo.cs
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.csproj.CopyComplete
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment4\Assignment4.Tests\obj\Debug\netcoreapp2.1\Assignment4.Tests.pdb
