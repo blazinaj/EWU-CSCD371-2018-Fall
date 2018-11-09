@@ -1,9 +1,0 @@
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\bin\Debug\netcoreapp2.1\Assignment6t.deps.json
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\bin\Debug\netcoreapp2.1\Assignment6t.dll
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\bin\Debug\netcoreapp2.1\Assignment6t.pdb
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.csproj.CoreCompileInputs.cache
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.AssemblyInfoInputs.cache
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.AssemblyInfo.cs
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.dll
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.pdb
-C:\Users\Blazina\Desktop\Assignment6t\Assignment6t\Assignment6t\obj\Debug\netcoreapp2.1\Assignment6t.csprojAssemblyReference.cache

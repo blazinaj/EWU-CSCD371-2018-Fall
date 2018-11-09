@@ -1,0 +1,34 @@
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csprojAssemblyReference.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.AssemblyInfoInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.AssemblyInfo.cs
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.Tests.deps.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.Tests.runtimeconfig.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.Tests.runtimeconfig.dev.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.Tests.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\bin\Debug\netcoreapp2.1\Assignment7.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csproj.CopyComplete
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\__Textbooks\Assignment7\NotNullableTests\obj\Debug\netcoreapp2.1\Assignment7.Tests.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.Tests.deps.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.Tests.runtimeconfig.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.Tests.runtimeconfig.dev.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.Tests.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\bin\Debug\netcoreapp2.1\Assignment7.pdb
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csprojAssemblyReference.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.AssemblyInfoInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.AssemblyInfo.cs
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.csproj.CopyComplete
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment7\Assignment7.Tests\obj\Debug\netcoreapp2.1\Assignment7.Tests.pdb
