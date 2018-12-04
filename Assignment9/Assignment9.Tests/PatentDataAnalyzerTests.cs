@@ -55,33 +55,42 @@ namespace Assignment9.Tests
         //not a collection (other than the fact that a string is a collection of characters).
         public void LocationsWithInventors_Returns_CSL_Unique_Hyphen_Returns_Scalar_String()
         {
+            string locationsWithInventorsTest = "PA-USA,NC-USA,NY-USA,Northumberland-UK,IL-USA";
 
+            string locationsWithInventors = PatentDataAnalyzer.LocationsWithInventors();
+
+            Assert.AreEqual(locationsWithInventorsTest, locationsWithInventors);
         }
 
         [TestMethod]
         //Write an IEnumerable<T> extension method on a class called Enumerable<T> that returns an IEnumerable<T> of the original items in random order.To test execute the method using LINQ and verify the order is not the same for at least 3 invocations.
         public void Randomize_Writes_IEnumerable_Returns_IEnumerableT_Random_Order()
         {
-            List<string> og = PatentDataAnalyzer.QueryAll();
-
-            PatentDataAnalyzer.Randomize();
-
             List<string> rand = PatentDataAnalyzer.QueryAll();
 
-            Assert.AreNotEqual(String.Join(",", og), String.Join(",", rand));
+            for (var i = 0; i < 3; i++)
+            {
+                Assert.AreNotEqual( String.Join(",", rand),
+                                    String.Join(",", PatentDataAnalyzer.Randomize()));
+            }
         }
 
-        [TestMethod]
+        /*[TestMethod]
         //Create a method that returns a list of inventors that have n patents, where n is provided as a parameter to the method.
         public void GetInventorsWithMulitplePatents()
         {
+            
 
         }
+        */
 
         [TestMethod]
         //Write a method that returns a collection of every nth fibonacci number.
         public void NthFibonacciNumbers()
         {
+            List<int> list = PatentDataAnalyzer.NthFibonacciNumbers(10);
+
+            Assert.AreEqual("1,2,3,5,8,13,21,34,55,89", string.Join(",", list));
 
         }
     }

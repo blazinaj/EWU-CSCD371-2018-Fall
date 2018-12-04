@@ -9,45 +9,45 @@ namespace Assignment9
     {
         public static List<string> InventorNames(string param)
         {
-            IEnumerable<string> Q = PatentData.Inventors
+            IEnumerable<string> q = PatentData.Inventors
                         .Where(inventor => inventor.Country.Equals(param))
                         .Select(inventor => inventor.Name);
 
-            return Q.ToList<string>();
+            return q.ToList<string>();
         }
 
         public static List<string> InventorLastNames()
         {
-            IEnumerable<string> Q = PatentData.Inventors
+            IEnumerable<string> q = PatentData.Inventors
                         .OrderByDescending(inventor => inventor.Id)
-                        .Select(inventor => inventor.Name);
+                        .Select(inventor => inventor.Name.Split().Last());
 
-            return Q.ToList<string>();
+            return q.ToList<string>();
         }
 
         public static List<string> Randomize()
         {
-            IEnumerable<string> Q = PatentData.Inventors
+            IEnumerable<string> q = PatentData.Inventors
                         .OrderByDescending(inventor => inventor.Id)
                         .Select(inventor => inventor.ToString());
-            
-            Enumerable.Randomize(Q);
 
-            return Q.ToList<string>();
+            Enumerable.Randomize(q);
+
+            return q.ToList<string>();
         }
 
         public static List<string> QueryEquals(string field, string param)
         {
-            IEnumerable<string> Q = null;
+            IEnumerable<string> q = null;
             switch (field)
             {
                 case "Country":
-                    Q = PatentData.Inventors
+                    q = PatentData.Inventors
                         .Where(inventor => inventor.Country.Equals(param))
                         .Select(inventor => inventor.Name);
                     break;
                 case "Name":
-                    Q = PatentData.Inventors
+                    q = PatentData.Inventors
                         .Where(inventor => inventor.Name.Equals(param))
                         .Select(inventor => inventor.Name);
                     break;
@@ -55,31 +55,37 @@ namespace Assignment9
                     break;
             }
 
-            return Q.ToList<string>();
+            return q.ToList<string>();
+        }
+
+        public static List<string> QueryEquals(string param)
+        {
+            return QueryEquals("Country", param);
         }
 
         public static List<string> QueryAll()
         {
-            IEnumerable<string> Q = null;
+            IEnumerable<string> q = null;
 
-                    Q = PatentData.Inventors
-                        .Select(inventor => inventor.ToString());
+            q = PatentData.Inventors
+                .Select(inventor => inventor.ToString());
 
-            return Q.ToList<string>();
+            return q.ToList<string>();
         }
 
+        //Was just playing around with linq
         public static List<string> QueryContains(string field, string param)
         {
-            IEnumerable<string> Q = null;
+            IEnumerable<string> q = null;
             switch (field)
             {
                 case "Country":
-                    Q = PatentData.Inventors
+                    q = PatentData.Inventors
                         .Where(inventor => inventor.Country.Contains(param))
                         .Select(inventor => inventor.Name);
                     break;
                 case "Name":
-                    Q = PatentData.Inventors
+                    q = PatentData.Inventors
                         .Where(inventor => inventor.Name.Contains(param))
                         .Select(inventor => inventor.Name);
                     break;
@@ -87,29 +93,62 @@ namespace Assignment9
                     break;
             }
 
-            return Q.ToList<string>();
+            return q.ToList<string>();
         }
-        
+
+        public static string LocationsWithInventors()
+        {
+            IEnumerable<string> stateHyphenCountry = PatentData.Inventors
+                        .Select(inventor => $"{inventor.State}-{inventor.Country}")
+                        .Distinct();
+
+            return string.Join(",", stateHyphenCountry);
+
+        }
+
+        public static List<int> NthFibonacciNumbers(int n)
+        {
+            List<int> nFibonacciNumbers = new List<int>();
+
+            int baseOne = 1;
+            int baseTwo = 1;
+
+            for (int i = 0; i < n; i++)
+            {
+                int temp = baseOne;
+                baseOne = baseTwo;
+                baseTwo = temp + baseTwo;
+
+                nFibonacciNumbers.Add(baseOne);
+            }
+
+            return nFibonacciNumbers;
+        }
+
+        /*public static List<Inventor> GetInventorsWithMultiplePatents(int n)
+        {
+
+        }
+        */
     }
 
     public static class Enumerable
     {
         public static IEnumerable<T> Randomize<T>(this IEnumerable<T> source)
         {
-            return source.Randomize(new Random());
-        }
+            Random range = new Random(5000);
 
-        private static IEnumerable<T> Randomize<T>(
-            this IEnumerable<T> source, Random rng)
-        {
-            var buffer = source.ToList();
-            for (int i = 0; i < buffer.Count; i++)
+            var list = source.ToList();
+            for (int i = 0; i < list.Count; i++)
             {
-                int j = rng.Next(i, buffer.Count);
-                yield return buffer[j];
+                int j = range.Next(i, list.Count);
 
-                buffer[j] = buffer[i];
+                yield return list[j];
+
+                list[j] = list[i];
             }
         }
     }
+
+
 }

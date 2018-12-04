@@ -1,0 +1,8 @@
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\b\Assignment9\Debug\netcoreapp2.1\Assignment9.deps.json
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\b\Assignment9\Debug\netcoreapp2.1\Assignment9.dll
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.csprojAssemblyReference.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.csproj.CoreCompileInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.AssemblyInfoInputs.cache
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.AssemblyInfo.cs
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.csproj.CopyComplete
+C:\Users\Blazina\OneDrive - Eastern Washington University\CSCD 371\EWU-CSCD371-2018-Fall\Assignment9\.vs\Assignment9\lut\0\i\Assignment9\Debug\netcoreapp2.1\Assignment9.dll

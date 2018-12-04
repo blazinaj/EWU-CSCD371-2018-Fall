@@ -4,6 +4,21 @@ using System.Text;
 
 namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter15.Listing15_10
 {
+    public class Patent
+    {
+        // Title of the published application
+        public string Title { get; set; }
+        // The date the application was officially published
+        public string YearOfPublication { get; set; }
+        // A unique number assigned to published applications
+        public string ApplicationNumber { get; set; }
+        public long[] InventorIds { get; set; }
+        public override string ToString()
+        {
+            return $"{ Title } ({ YearOfPublication })";
+        }
+    }
+
     public class Inventor
     {
         public long Id { get; set; }
@@ -78,6 +93,58 @@ namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter15.Listing15_10
                 Country = "USA",
                 Id = 7
             },
+
         };
+        public static readonly Patent[] Patents = new Patent[]
+ {
+            new Patent()
+            {
+                Title = "Bifocals",
+                YearOfPublication = "1784",
+                InventorIds = new long[] { 1 }
+            },
+            new Patent()
+            {
+                Title = "Phonograph",
+                YearOfPublication = "1877",
+                InventorIds = new long[] { 1 }
+            },
+            new Patent()
+            {
+                Title = "Kinetoscope",
+                YearOfPublication = "1888",
+                InventorIds = new long[] { 1 }
+            },
+            new Patent()
+            {
+                Title = "Electrical Telegraph",
+                YearOfPublication = "1837",
+                InventorIds = new long[] { 4 }
+            },
+            new Patent()
+            {
+                Title = "Flying Machine",
+                YearOfPublication = "1903",
+                InventorIds = new long[] { 2, 3 }
+            },
+            new Patent()
+            {
+                Title = "Steam Locomotive",
+                YearOfPublication = "1815",
+                InventorIds = new long[] { 5 }
+            },
+            new Patent()
+            {
+                Title = "Droplet Deposition Apparatus",
+                YearOfPublication = "1989",
+                InventorIds = new long[] { 6 }
+            },
+            new Patent()
+            {
+                Title = "Backless Brassiere",
+                YearOfPublication = "1914",
+                InventorIds = new long[] { 7 }
+            },
+};
     }
 }
